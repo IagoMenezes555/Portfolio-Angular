@@ -1,0 +1,18 @@
+mat-card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    text-align: justify;
+    transition: 500ms;
+
+    p{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}
+
+mat-card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 3px #950bd4;
+}

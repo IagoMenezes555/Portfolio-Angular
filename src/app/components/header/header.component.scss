@@ -1,0 +1,41 @@
+mat-toolbar{
+    background-color: #950bd4;
+    color: white;
+
+    h1{
+        font-size: 30px;
+        font-family: "Cal Sans";
+        transition: 600ms;
+    }
+
+    h1:hover{
+        font-size: 35px;
+        cursor: default;
+    }
+
+    .pages{
+        margin-left: auto;
+    }
+
+    a:hover{
+        background-color: #a238d3;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    mat-toolbar{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+        h1{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .pages{
+        margin-left: 0;
+    }
+    }
+}
