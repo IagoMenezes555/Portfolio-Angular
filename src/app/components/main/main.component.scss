@@ -24,16 +24,16 @@ main{
         gap: 20px;
 
         i{
-            border: solid 3px #950bd4;
+            border: solid 3px var(--primary-color);
             padding: 10px;
             border-radius: 100%;
-            color: #950bd4;
+            color: var(--primary-color);
             transition: 400ms;
         }
 
         i:hover{
-            box-shadow: #950bd4 0px 0px 30px 3px;
-            background-color: #950bd4;
+            box-shadow: var(--primary-color) 0px 0px 30px 3px;
+            background-color: var(--primary-color);
             color: black;
         }
     }
