@@ -1,31 +1,31 @@
-main{
+main {
     display: flex;
     justify-content: center;
     gap: 30px;
     align-items: center;
 
-    img{
+    img {
         height: 300px;
         width: 300px;
         border-radius: 100%;
         transition: 500ms;
     }
 
-    img:hover{
+    img:hover {
         height: 320px;
         width: 320px;
     }
 
-    .text{
+    .text {
         width: 500px;
         font-size: 14.5px;
     }
 
-    .social{
+    .social {
         display: flex;
         gap: 20px;
 
-        i{
+        i {
             border: solid 3px var(--primary-color);
             padding: 15px;
             border-radius: 100%;
@@ -34,7 +34,7 @@ main{
             font-size: 25px;
         }
 
-        i:hover{
+        i:hover {
             box-shadow: var(--primary-color) 0px 0px 30px 3px;
             background-color: var(--primary-color);
             color: black;
@@ -42,22 +42,42 @@ main{
     }
 }
 
-@media screen and (max-width: 900px){
-    main{
+@media screen and (max-width: 900px) {
+    main {
         margin-top: 20px;
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        .text{
+        .text {
             text-align: center;
-            width: 400px;
+            width: 350px;
+            font-size: 14px;
         }
 
-        .social{
+        .social {
             justify-content: center;
         }
     }
+}
 
+@media screen and (max-width: 400px) {
+    main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .text {
+            text-align: center;
+            width: 320px;
+            font-size: 13px;
+        }
+
+        .social {
+            justify-content: center;
+        }
+    }
 }

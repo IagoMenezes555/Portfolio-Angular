@@ -1,41 +1,89 @@
-mat-toolbar{
+mat-toolbar {
     background-color: var(--primary-color);
     color: white;
 
-    h1{
+    h1 {
         font-size: 30px;
         font-family: "Cal Sans";
         transition: 600ms;
     }
 
-    h1:hover{
+    h1:hover {
         font-size: 35px;
         cursor: default;
     }
 
-    .pages{
+    .pages {
         margin-left: auto;
+
+        a{
+            font-size: 16px;
+        }
     }
 
-    a:hover{
+    a:hover {
         background-color: #1f8a04;
     }
 }
 
 @media screen and (max-width: 900px) {
-    
-    mat-toolbar{
+
+    mat-toolbar {
         display: flex;
         flex-direction: column;
         height: auto;
 
-        h1{
+        h1 {
             margin-top: 5px;
             margin-bottom: 5px;
         }
 
-        .pages{
-        margin-left: 0;
+        .pages {
+            margin-left: 0;
+        }
     }
+}
+
+@media screen and (max-width: 450px) {
+
+    mat-toolbar {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+        h1 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .pages {
+            margin-left: 0;
+
+            a{
+                font-size: 10.8px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    mat-toolbar {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+        h1 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .pages {
+            margin-left: 0;
+
+            a{
+                font-size: 8px;
+            }
+        }
     }
 }

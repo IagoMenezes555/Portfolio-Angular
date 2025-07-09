@@ -28,7 +28,7 @@ export class CardComponent {
   ];
 
   abrirProjeto(nome: string) {
-    const projeto = this.projetos.find(p => p.nome === nome);
+    const projeto = this.projetos.find((projeto) => projeto.nome === nome);
     if (projeto) {
       window.open(projeto.link, "_blank");
     }
