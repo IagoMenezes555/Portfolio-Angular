@@ -1,6 +1,15 @@
-<mat-card id="To-Do List" (click)="todo()">
-    <h2>To-Do List</h2>
-    <div class="text">
-        <p>To-Do List é um projeto simples para organizar tarefas. Nele, o usuário pode adicionar, marcar como concluídas e excluir tarefas. Foi essencial para eu aprender e praticar o uso do localStorage em JavaScript.</p>
-    </div>
-</mat-card>
+<div class="cards">
+    <mat-card (click)="todo()">
+        <h2>To-Do List</h2>
+        <div class="text">
+            <p>To-Do List é um projeto simples para organizar tarefas. Nele, o usuário pode adicionar, marcar como concluídas e excluir tarefas. Foi essencial para eu aprender e praticar o uso do localStorage em JavaScript.</p>
+        </div>
+    </mat-card>
+    
+    <mat-card (click)="todo()">
+        <h2>Urna</h2>
+        <div class="text">
+            <p>Urna Eletrônica é um projeto feito em Angular que simula uma votação. Com ele, é possível digitar o número do candidato, confirmar, corrigir ou votar em branco. Foi importante para eu praticar componentização, serviços e manipulação de dados no Angular.</p>
+        </div>
+    </mat-card>
+</div>

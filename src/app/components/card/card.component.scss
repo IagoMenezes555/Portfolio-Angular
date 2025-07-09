@@ -1,25 +1,33 @@
-mat-card {
+.cards {
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 330px;
     justify-content: center;
-    align-items: center;
-    transition: 500ms;
+    gap: 20px;
+    margin-bottom: 20px;
 
-    .text {
-        text-align: center;
+    mat-card {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        transition: 500ms;
 
-        p {
-            margin-left: 20px;
-            margin-right: 20px;
-            font-size: 15px;
+        .text {
+            text-align: center;
+
+            p {
+                margin-left: 20px;
+                margin-right: 20px;
+                font-size: 15px;
+            }
         }
+
     }
 
-}
-
-mat-card:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 20px 3px #34ce0e;
+    mat-card:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 20px 3px #34ce0e;
+    }
 }
