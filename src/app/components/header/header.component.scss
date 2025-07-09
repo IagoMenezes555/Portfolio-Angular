@@ -4,7 +4,9 @@ mat-toolbar {
 
     h1 {
         font-size: 30px;
-        font-family: "Cal Sans";
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
         transition: 600ms;
     }
 
@@ -16,7 +18,7 @@ mat-toolbar {
     .pages {
         margin-left: auto;
 
-        a{
+        a {
             font-size: 16px;
         }
     }
@@ -59,7 +61,7 @@ mat-toolbar {
         .pages {
             margin-left: 0;
 
-            a{
+            a {
                 font-size: 10.8px;
             }
         }
@@ -81,7 +83,7 @@ mat-toolbar {
         .pages {
             margin-left: 0;
 
-            a{
+            a {
                 font-size: 8px;
             }
         }
