@@ -16,4 +16,8 @@ export class CardComponent {
   urna(){
     window.open("https://github.com/IagoMenezes555/Urna-7", "_blank");
   }
+
+  estoque(){
+    window.open("https://github.com/IagoMenezes555/APP-de-Estoque", "_blank");
+  }
 }
