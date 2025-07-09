@@ -9,8 +9,11 @@ import { MatCardModule } from '@angular/material/card';
 })
 export class CardComponent {
 
-  todo():void{
+  todo() {
     window.open("https://github.com/IagoMenezes555/To-Do-List", "_blank");
   }
 
+  urna(){
+    window.open("https://github.com/IagoMenezes555/Urna-7", "_blank");
+  }
 }
