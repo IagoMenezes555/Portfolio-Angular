@@ -1,22 +1,10 @@
 <div class="cards">
-    <mat-card (click)="todo()">
-        <h2>To-Do List</h2>
+    @for(projeto of projetos; track projeto){
+    <mat-card (click)="abrirProjeto(projeto.nome)">
+        <h2>{{ projeto.nome }}</h2>
         <div class="text">
-            <p>To-Do List é um projeto simples para organizar tarefas. Nele, o usuário pode adicionar, marcar como concluídas e excluir tarefas. Foi essencial para eu aprender e praticar o uso do localStorage em JavaScript.</p>
+            <p>{{ projeto.descricao }}</p>
         </div>
     </mat-card>
-    
-    <mat-card (click)="urna()">
-        <h2>Urna</h2>
-        <div class="text">
-            <p>Urna Eletrônica é um projeto feito em Angular que simula uma votação. Com ele, é possível digitar o número do candidato, confirmar, corrigir ou votar em branco. Foi importante para eu praticar componentização, serviços e manipulação de dados no Angular.</p>
-        </div>
-    </mat-card>
-
-    <mat-card (click)="estoque()">
-        <h2>Estoque</h2>
-        <div class="text">
-            <p>Estoque é um projeto voltado para monitorar e exibir os itens disponíveis no estoque de uma empresa. O objetivo é facilitar a organização e o gerenciamento eficiente dos produtos.</p>
-        </div>
-    </mat-card>
+}
 </div>
