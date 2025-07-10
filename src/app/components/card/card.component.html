@@ -1,10 +1,10 @@
 <div class="cards">
-    @for(projeto of projetos; track projeto){
-    <mat-card (click)="abrirProjeto(projeto.nome)">
-        <h2>{{ projeto.nome }}</h2>
-        <div class="text">
-            <p>{{ projeto.descricao }}</p>
-        </div>
-    </mat-card>
-}
+  @for(projeto of projetos; track projeto){
+  <mat-card (click)="abrirProjeto(projeto.nome)">
+    <h2>{{ projeto.nome }}</h2>
+    <div class="text">
+      <p>{{ projeto.descricao }}</p>
+    </div>
+  </mat-card>
+  }
 </div>
