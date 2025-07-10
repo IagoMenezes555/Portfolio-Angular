@@ -1,10 +1,10 @@
 <mat-toolbar>
   <h1>Iago Menezes</h1>
   <div class="pages">
-      <a mat-button routerLink="./">Início</a>
-      <a mat-button routerLink="./habilidades">Habilidades</a>
-      <a mat-button routerLink="./educacao">Educação</a>
-      <a mat-button routerLink="./projetos">Projetos</a>
-      <a mat-button routerLink="./contato">Contato</a>
+      <a mat-button routerLink="./" routerLinkActive="ativo" [routerLinkActiveOptions]="{ exact: true }">Início</a>
+      <a mat-button routerLink="./habilidades" routerLinkActive="ativo">Habilidades</a>
+      <a mat-button routerLink="./educacao" routerLinkActive="ativo">Educação</a>
+      <a mat-button routerLink="./projetos" routerLinkActive="ativo">Projetos</a>
+      <a mat-button routerLink="./contato" routerLinkActive="ativo">Contato</a>
   </div>
 </mat-toolbar>

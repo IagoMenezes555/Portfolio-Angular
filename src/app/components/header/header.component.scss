@@ -26,6 +26,10 @@ mat-toolbar {
     a:hover {
         background-color: #07108a;
     }
+
+    a.ativo{
+        background-color: #02063a;
+    }
 }
 
 @media screen and (max-width: 900px) {
